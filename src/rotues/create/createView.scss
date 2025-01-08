@@ -1,0 +1,25 @@
+@use "../../variables" as *;
+
+.input-title {
+  font-weight: bold;
+}
+
+.input-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 20rem;
+}
+
+.input-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 25rem;
+}
+
+.input-container {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+}

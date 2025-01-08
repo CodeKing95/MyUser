@@ -1,0 +1,38 @@
+@use "./variables";
+#root {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #0db0f1;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #0db0f1;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+}
+
+.app {
+  display: flex;
+}
+
+.app-sidebar {
+  width: 360px;
+}
+
+.app-content {
+  flex-grow: 1;
+  padding: 1rem 0;
+}

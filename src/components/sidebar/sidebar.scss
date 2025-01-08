@@ -1,0 +1,38 @@
+@use "../../variables" as *;
+.sidebar-container {
+  background-color: $blue-90;
+  border-right: solid 1px $blue-80;
+  height: 100%;
+}
+
+.sidebar-header {
+  height: 4rem;
+  border-bottom: solid 1px $blue-80;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.sidebar-header-image {
+  height: 80%;
+}
+
+.sidebar-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidebar-item {
+  padding: 1rem;
+  background-color: $blue-80;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.sidebar-item:hover {
+  background-color: #0db0f1;
+}
