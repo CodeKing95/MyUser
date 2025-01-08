@@ -11,12 +11,12 @@ import { User } from "./types/User";
 
 const router = createBrowserRouter([
   {
-    path: "/user",
+    path: "/",
     element: <Root />,
     children: [
-      { path: "overview", element: <Overview /> },
-      { path: "create", element: <CreateView /> },
-      { path: "edit/:id", element: <EditView /> },
+      { path: "/overview", element: <Overview /> },
+      { path: "/create", element: <CreateView /> },
+      { path: "/edit/:id", element: <EditView /> },
     ],
   },
 ]);
